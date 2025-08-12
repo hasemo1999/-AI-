@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+*.csv
+*.bak
+*.tmp
+Patients_backup_*/
+INBOX_backup_*/
+
+# Large files
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.tif
+*.heic
+*.webp
+
+# Keep only small sample images for testing
+!test_*.jpg
+!test_*.png
+!sample_*.jpg
+!sample_*.png
